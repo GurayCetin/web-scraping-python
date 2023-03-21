@@ -15,12 +15,12 @@ This is a Python program that downloads all PNG images from a website and saves 
 This program requires Python 3.x and the libraries in requirements file to be installed:
 
 ````pyhton
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ````
 
 ## Usage
 ````pyhton
-python3 url.py
+python url.py
 ````
 
 You will be prompted to enter a URL and a directory path name. Enter the URL of the website you want to download PNG images from and the directory path name where you want to save the images.
