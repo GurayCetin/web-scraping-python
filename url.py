@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import re
-import sys
 
 
 url = input("Please enter your url: ")
@@ -18,23 +17,23 @@ if not url_check(url):
     print("Error, URL is invalid or unreachable")
     exit()
 
-folder = input("Please enter your folder name to dowload png files: ")
+path = input("Please enter your directory path name to dowload png files: ")
 
 
-def website_png(url: str,folder: str):
+def website_png(url: str,path: str):
     
     req = requests.get(url)
 
     soup = BeautifulSoup(req.text, 'html.parser')
-
+# 
     images = soup.find_all('img', src=re.compile(".png", re.IGNORECASE))
      
     if images:
         try:
-            os.mkdir(os.path.join(os.getcwd(),folder))
+            os.makedirs(os.path.join(os.getcwd(),path))
         except:
             pass
-        os.chdir(os.path.join(os.getcwd(),folder))
+        os.chdir(os.path.join(os.getcwd(),path))
     else:
         print("There is no .png extension image in this website")
         return
@@ -53,4 +52,12 @@ def website_png(url: str,folder: str):
 
 if __name__ == "__main__":
 
-    website_png(url=url, folder=folder)
+    website_png(url=url, path=path)
+
+
+
+
+
+
+
+
