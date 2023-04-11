@@ -28,28 +28,24 @@ You will be prompted to enter a URL and a directory path name. Enter the URL of 
 
 ## Example
 ````pyhton
-Please enter your url: https://nxlog.co/
-Please enter your directory path name to dowload png files: nxlogs/images
+Please enter your url: https://www.booking.com
+Please enter your directory path name to download png files: booking/images
 ````
 
 ## Output
 ````pyhton
-Writing:  https://nxlog.co/storage/uploads/fd1d665c-e2b9-4144-80a0-dc9c0dcceb7f/group-1454.png
-Writing:  https://nxlog.co/storage/uploads/fd1d665c-e2b9-4144-80a0-dc9c0dcceb7f/group-1455.png
-Writing:  https://nxlog.co/storage/uploads/fd1d665c-e2b9-4144-80a0-dc9c0dcceb7f/image-69.png
-Writing:  https://nxlog.co/storage/uploads/fd1d665c-e2b9-4144-80a0-dc9c0dcceb7f/group-1453.png
-Writing:  https://nxlog.co/storage/uploads/fd1d665c-e2b9-4144-80a0-dc9c0dcceb7f/group-1452.png
-Writing:  https://nxlog.co/storage/uploads/e9ab96ca-9060-4ed4-848e-47bfdf0d1776/layer1.png
-Writing:  https://nxlog.co/storage/uploads/1f267278-a32a-4537-a904-50c2386d5dca/widows-security-auditing.png
-Writing:  https://nxlog.co/storage/uploads/bd02dd59-264f-476c-a1e3-cb482b9c0ba8/group-1412.png
-Writing:  https://nxlog.co/storage/uploads/de2c1824-4e3e-4574-8685-4d583162ca82/passive-network-monitoring.png
-Writing:  https://nxlog.co/storage/uploads/1f267278-a32a-4537-a904-50c2386d5dca/dhcp-server-1.png
+Writing:  https://t-cf.bstatic.com/design-assets/assets/v3.68.0/images-flags/Us@3x.png
+Writing:  https://t-cf.bstatic.com/design-assets/assets/v3.68.0/illustrations-traveller/GlobeGeniusBadge.png
+Writing:  https://cf.bstatic.com/static/img/tfl/group_logos/logo_booking/27c8d1832de6a3123b6ee45b59ae2f81b0d9d0d0.png
+Writing:  https://cf.bstatic.com/static/img/tfl/group_logos/logo_priceline/f80e129541f2a952d470df2447373390f3dd4e44.png
+Writing:  https://cf.bstatic.com/static/img/tfl/group_logos/logo_kayak/83ef7122074473a6566094e957ff834badb58ce6.png
+Writing:  https://cf.bstatic.com/static/img/tfl/group_logos/logo_agoda/1c9191b6a3651bf030e41e99a153b64f449845ed.png
+Writing:  https://cf.bstatic.com/static/img/tfl/group_logos/logo_rentalcars/6bc5ec89d870111592a378bbe7a2086f0b01abc4.png
+Writing:  https://cf.bstatic.com/static/img/tfl/group_logos/logo_opentable/a4b50503eda6c15773d6e61c238230eb42fb050d.png
 ````
 
 ## Result
 The script is downloaded case-insensitive png files to specified directory path as naming them gradually. 
 
-
-<img width="249" alt="Screen Shot 2023-03-21 at 22 31 35" src="https://user-images.githubusercontent.com/34660613/226720926-96a4c302-0832-4725-a921-0fc120a72f2d.png">
-
+<img width="197" alt="Screen Shot 2023-04-11 at 22 26 17" src="https://user-images.githubusercontent.com/34660613/231268389-4841f219-f0f9-4937-a490-b4945658aa04.png">
 
